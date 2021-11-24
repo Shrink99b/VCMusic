@@ -22,7 +22,7 @@ ASSISTANT_NAME = getenv("ASSISTANT_NAME", "vcassistant1")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "MeowUserbot")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Murat_30_God")
 # isi dengan username kamu tanpa simbol @
-OWNER_NAME = getenv("OWNER_NAME", "Manjeet")
+OWNER_NAME = getenv("OWNER_NAME", "Hayat_Murat_30")
 # fill with your nickname
 ALIVE_NAME = getenv("ALIVE_NAME", "Manjeet")
 # fill with your id as the owner of the bot
