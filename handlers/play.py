@@ -493,45 +493,6 @@ async def m_cb(b, cb):
             )
 
 
-PsychoBots
-/
-VCMusical2.0
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-VCMusical2.0/Musical/modules/ply.py
-@loverboyXD
-loverboyXD •Play settings•
- 1 contributor
-1299 lines (1215 sloc)  46.6 KB
-import json
-import os
-from os import path
-from typing import Callable
-
-import aiofiles
-import aiohttp
-import ffmpeg
-import requests
-import wget
-from PIL import Image
-from PIL import ImageDraw
-from PIL import ImageFont
-from pyrogram import Client
-from pyrogram import filters
-from pyrogram.types import Voice
-from pyrogram.errors import UserAlreadyParticipant
-from pyrogram.types import InlineKeyboardButton
-from pyrogram.types import InlineKeyboardMarkup
-from pyrogram.types import Message
-from Python_ARQ import ARQ
-from youtube_search import YoutubeSearch
 
 
 
