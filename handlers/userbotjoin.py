@@ -43,7 +43,6 @@ async def join_group(client, message):
     )
 
 
-)
 @authorized_users_only
 async def leave_group(client, message):
     try:
