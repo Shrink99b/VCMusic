@@ -6,7 +6,6 @@ py-tgcalls
 python-dotenv
 requests
 aiohttp
-aiofiles
 asyncio
 ffmpeg-python
 pillow
