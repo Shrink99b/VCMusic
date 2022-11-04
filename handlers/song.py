@@ -214,7 +214,6 @@ def time_to_seconds(times):
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(":"))))
 
 
-)
 async def vsong(client, message):
     ydl_opts = {
         "format": "best",
