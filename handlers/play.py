@@ -216,7 +216,6 @@ async def settings(client, message):
 
 @Client.on_message(
     command(["music", f"music@{BOT_USERNAME}"])
-    & ~filters.edited
     & ~filters.bot
     & ~filters.private
 )
